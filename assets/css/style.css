@@ -128,4 +128,14 @@
 
 .lado{
     color: #999;
+    font-family: 'figtree';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.lado1{
+    padding-inline-start: 14px;
 }
