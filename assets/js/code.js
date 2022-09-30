@@ -12,7 +12,7 @@ sectionHijoBody.appendChild(navHijoSection)
 let divHijoNav = document.createElement("div")
 divHijoNav.classList.add("container-fluid")
 navHijoSection.appendChild(divHijoNav)
-
+    
 let aHijoDiv = document.createElement("a")
 aHijoDiv.classList.add("navbar-brand", "icon")
 aHijoDiv.setAttribute("hre", "#")
@@ -248,3 +248,84 @@ p.appendChild(br7)
 let p1 = document.createElement("p")
 p1.innerText = "una y otra vez."
 p.appendChild(p1)
+
+let section3Hijosection = document.createElement("section")
+section3Hijosection .classList.add("container")
+section2HijoBody.appendChild(section3Hijosection)
+
+let div17HijoSection = document.createElement("div")
+div17HijoSection.classList.add("your-class")
+section3Hijosection.appendChild(div17HijoSection)
+
+let div18HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div18HijoDiv)
+
+let imgHijoDiv18 = document.createElement("img")
+imgHijoDiv18.classList.add("w-100", "p-1")
+imgHijoDiv18.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/1883_s1_poster_1400x2100_nb_030722.jpg")
+div18HijoDiv.appendChild(imgHijoDiv18)
+
+let div19HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div19HijoDiv)
+
+let imgHijoDiv19 = document.createElement("img")
+imgHijoDiv19.classList.add("w-100", "p-1")
+imgHijoDiv19.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/paw_patrol_s8a_poster_1400x2100_nb_100521_0.jpg")
+div19HijoDiv.appendChild(imgHijoDiv19)
+
+let div20HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div20HijoDiv)
+
+let imgHijoDiv20 = document.createElement("img")
+imgHijoDiv20.classList.add("w-100", "p-1")
+imgHijoDiv20.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/resistire_s2_poster_1400x2100_032222.jpg")
+div20HijoDiv.appendChild(imgHijoDiv20)
+
+let div21HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div21HijoDiv)
+
+let imgHijoDiv21 = document.createElement("img")
+imgHijoDiv21.classList.add("w-100", "p-1")
+imgHijoDiv21.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/patrick_star_s1_poster_1400x2100_120721.jpg")
+div21HijoDiv.appendChild(imgHijoDiv21)
+
+let div22HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div22HijoDiv)
+
+let imgHijoDiv22 = document.createElement("img")
+imgHijoDiv22.classList.add("w-100", "p-1")
+imgHijoDiv22.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/madame_x_sa_poster_1400x2100_nb_093021_0.jpg")
+div22HijoDiv.appendChild(imgHijoDiv22)
+
+let div23HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div23HijoDiv)
+
+let imgHijoDiv23 = document.createElement("img")
+imgHijoDiv23.classList.add("w-100", "p-1")
+imgHijoDiv23.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/arriba_chef_s1a_poster_1400x2100_nb_070221.jpg")
+div23HijoDiv.appendChild(imgHijoDiv23)
+
+let div24HijoDiv = document.createElement("div")
+div17HijoSection.appendChild(div24HijoDiv)
+
+let imgHijoDiv24 = document.createElement("img")
+imgHijoDiv24.classList.add("w-100", "p-1")
+imgHijoDiv24.setAttribute("src","https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w700-q80/cbs_page_attribute/cecilia_s1_poster_1400x2100_nb_121721.jpg")
+div24HijoDiv.appendChild(imgHijoDiv24)
+
+$(document).ready(function () {
+    $('.your-class').slick({
+        infinite: true,
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        arrows: true
+    });
+});
+
+$(document).ready(function () {
+    $('.your-class').slick({
+        infinite: true,
+        slidesToShow: 7,
+        slidesToScroll: 1
+    });
+});

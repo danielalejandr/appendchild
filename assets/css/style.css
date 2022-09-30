@@ -27,6 +27,16 @@
     background-repeat: no-repeat;
     height: 700px;
 }
+
+.img3{
+    background-image: url(https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/16/54/image_e46fd8a5-07e2-4a0f-93ef-9b5eaa27001c.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    height: 700px;
+}
 .nav{
     position: absolute;
 }
@@ -77,6 +87,24 @@
     width: 28%;
     margin-top: 1%;
     padding: 18px;
+}
+
+.tamano4{
+    width: 28%;
+    padding: 18px;
+}
+
+.tamano5{
+    width: 28%;
+    margin-top: 1%;
+    padding: 18px;
+}
+
+.tamano6{
+    width: 28%;
+    margin-top: 1%;
+    padding: 18px;
+    display: inline-flex;
 }
 
 .letra2{
